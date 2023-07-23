@@ -12,6 +12,11 @@ git submodule update --init --recursive && \
     cd build && make
 ```
 
+after it has done building, run 
+```
+./build/image_resizer
+```
+
 ## Run from docker
 
 ```
